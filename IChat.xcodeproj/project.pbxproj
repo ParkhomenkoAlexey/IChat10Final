@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0297F7A23DE11E7007914C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0297F7923DE11E7007914C9 /* LoginViewController.swift */; };
 		F0D5B34023DDA90C006497D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B33F23DDA90C006497D0 /* AppDelegate.swift */; };
 		F0D5B34223DDA90C006497D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B34123DDA90C006497D0 /* SceneDelegate.swift */; };
 		F0D5B34423DDA90C006497D0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B34323DDA90C006497D0 /* AuthViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0297F7923DE11E7007914C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F0D5B33C23DDA90C006497D0 /* IChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D5B33F23DDA90C006497D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0D5B34123DDA90C006497D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				F0D5B34123DDA90C006497D0 /* SceneDelegate.swift */,
 				F0D5B34323DDA90C006497D0 /* AuthViewController.swift */,
 				F0D5B36323DDD84D006497D0 /* SignUpViewController.swift */,
+				F0297F7923DE11E7007914C9 /* LoginViewController.swift */,
 				F0D5B35E23DDCF5D006497D0 /* Extensions */,
 				F0D5B34823DDA90E006497D0 /* Assets.xcassets */,
 				F0D5B34A23DDA90E006497D0 /* LaunchScreen.storyboard */,
@@ -188,6 +191,7 @@
 				F0D5B34023DDA90C006497D0 /* AppDelegate.swift in Sources */,
 				F0D5B36223DDD46A006497D0 /* StackView + Entension.swift in Sources */,
 				F0D5B34223DDA90C006497D0 /* SceneDelegate.swift in Sources */,
+				F0297F7A23DE11E7007914C9 /* LoginViewController.swift in Sources */,
 				F0D5B35423DDAEF1006497D0 /* UIButton + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
