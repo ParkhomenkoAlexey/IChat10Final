@@ -27,6 +27,10 @@ class AuthViewController: UIViewController {
         setupConstraints()
     }
     
+}
+
+// MARK: - Setup constraints
+extension AuthViewController {
     private func setupConstraints() {
         let googleView = ButtonFormView(label: googleLabel, button: googleButton)
         let emailView = ButtonFormView(label: emailLabel, button: emailButton)
