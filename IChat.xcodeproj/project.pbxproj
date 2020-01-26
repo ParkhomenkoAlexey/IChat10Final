@@ -17,6 +17,8 @@
 		F0D5B35823DDB22E006497D0 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B35723DDB22E006497D0 /* UIColor + Extension.swift */; };
 		F0D5B35A23DDB35E006497D0 /* Label + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B35923DDB35E006497D0 /* Label + Extension.swift */; };
 		F0D5B35C23DDB3E9006497D0 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B35B23DDB3E9006497D0 /* UIImageView + Extension.swift */; };
+		F0D5B36023DDD0FA006497D0 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B35F23DDD0FA006497D0 /* ButtonFormView.swift */; };
+		F0D5B36223DDD46A006497D0 /* StackView + Entension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B36123DDD46A006497D0 /* StackView + Entension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		F0D5B35723DDB22E006497D0 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		F0D5B35923DDB35E006497D0 /* Label + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label + Extension.swift"; sourceTree = "<group>"; };
 		F0D5B35B23DDB3E9006497D0 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		F0D5B35F23DDD0FA006497D0 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		F0D5B36123DDD46A006497D0 /* StackView + Entension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Entension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,16 +71,34 @@
 				F0D5B33F23DDA90C006497D0 /* AppDelegate.swift */,
 				F0D5B34123DDA90C006497D0 /* SceneDelegate.swift */,
 				F0D5B34323DDA90C006497D0 /* AuthViewController.swift */,
-				F0D5B35323DDAEF1006497D0 /* UIButton + Extension.swift */,
-				F0D5B35923DDB35E006497D0 /* Label + Extension.swift */,
-				F0D5B35523DDB1AA006497D0 /* UIFont + Extension.swift */,
-				F0D5B35723DDB22E006497D0 /* UIColor + Extension.swift */,
-				F0D5B35B23DDB3E9006497D0 /* UIImageView + Extension.swift */,
+				F0D5B35E23DDCF5D006497D0 /* Extensions */,
 				F0D5B34823DDA90E006497D0 /* Assets.xcassets */,
 				F0D5B34A23DDA90E006497D0 /* LaunchScreen.storyboard */,
 				F0D5B34D23DDA90E006497D0 /* Info.plist */,
 			);
 			path = IChat;
+			sourceTree = "<group>";
+		};
+		F0D5B35D23DDCF52006497D0 /* UIKIt */ = {
+			isa = PBXGroup;
+			children = (
+				F0D5B35323DDAEF1006497D0 /* UIButton + Extension.swift */,
+				F0D5B35923DDB35E006497D0 /* Label + Extension.swift */,
+				F0D5B35523DDB1AA006497D0 /* UIFont + Extension.swift */,
+				F0D5B35723DDB22E006497D0 /* UIColor + Extension.swift */,
+				F0D5B35B23DDB3E9006497D0 /* UIImageView + Extension.swift */,
+				F0D5B36123DDD46A006497D0 /* StackView + Entension.swift */,
+			);
+			path = UIKIt;
+			sourceTree = "<group>";
+		};
+		F0D5B35E23DDCF5D006497D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F0D5B35F23DDD0FA006497D0 /* ButtonFormView.swift */,
+				F0D5B35D23DDCF52006497D0 /* UIKIt */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +174,11 @@
 				F0D5B35823DDB22E006497D0 /* UIColor + Extension.swift in Sources */,
 				F0D5B35623DDB1AA006497D0 /* UIFont + Extension.swift in Sources */,
 				F0D5B35A23DDB35E006497D0 /* Label + Extension.swift in Sources */,
+				F0D5B36023DDD0FA006497D0 /* ButtonFormView.swift in Sources */,
 				F0D5B34423DDA90C006497D0 /* AuthViewController.swift in Sources */,
 				F0D5B35C23DDB3E9006497D0 /* UIImageView + Extension.swift in Sources */,
 				F0D5B34023DDA90C006497D0 /* AppDelegate.swift in Sources */,
+				F0D5B36223DDD46A006497D0 /* StackView + Entension.swift in Sources */,
 				F0D5B34223DDA90C006497D0 /* SceneDelegate.swift in Sources */,
 				F0D5B35423DDAEF1006497D0 /* UIButton + Extension.swift in Sources */,
 			);
