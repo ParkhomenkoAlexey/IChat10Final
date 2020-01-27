@@ -18,6 +18,7 @@
 		F0C20F9A23DF8569001E5E31 /* waitingChats.json in Resources */ = {isa = PBXBuildFile; fileRef = F0C20F9923DF8569001E5E31 /* waitingChats.json */; };
 		F0C20F9C23DF87F0001E5E31 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F9B23DF87F0001E5E31 /* Bundle-Decodable.swift */; };
 		F0C20F9F23DF99AF001E5E31 /* ActiveChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F9E23DF99AF001E5E31 /* ActiveChatCell.swift */; };
+		F0C20FA123DFA178001E5E31 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20FA023DFA178001E5E31 /* GradientView.swift */; };
 		F0D5B34023DDA90C006497D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B33F23DDA90C006497D0 /* AppDelegate.swift */; };
 		F0D5B34223DDA90C006497D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B34123DDA90C006497D0 /* SceneDelegate.swift */; };
 		F0D5B34423DDA90C006497D0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B34323DDA90C006497D0 /* AuthViewController.swift */; };
@@ -46,6 +47,7 @@
 		F0C20F9923DF8569001E5E31 /* waitingChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waitingChats.json; sourceTree = "<group>"; };
 		F0C20F9B23DF87F0001E5E31 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		F0C20F9E23DF99AF001E5E31 /* ActiveChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChatCell.swift; sourceTree = "<group>"; };
+		F0C20FA023DFA178001E5E31 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		F0D5B33C23DDA90C006497D0 /* IChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D5B33F23DDA90C006497D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0D5B34123DDA90C006497D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				F0297F7F23DE27F4007914C9 /* AddPhotoView.swift */,
 				F0D5B35F23DDD0FA006497D0 /* ButtonFormView.swift */,
 				F0D5B36523DDD9E0006497D0 /* OneLineTextField.swift */,
+				F0C20FA023DFA178001E5E31 /* GradientView.swift */,
 				F0C20F9B23DF87F0001E5E31 /* Bundle-Decodable.swift */,
 				F0D5B35D23DDCF52006497D0 /* UIKIt */,
 			);
@@ -238,6 +241,7 @@
 			files = (
 				F0C20F9023DF54B5001E5E31 /* ListViewController.swift in Sources */,
 				F0D5B36623DDD9E0006497D0 /* OneLineTextField.swift in Sources */,
+				F0C20FA123DFA178001E5E31 /* GradientView.swift in Sources */,
 				F0C20F9423DF5609001E5E31 /* MainTabBarController.swift in Sources */,
 				F0D5B36423DDD84D006497D0 /* SignUpViewController.swift in Sources */,
 				F0C20F9F23DF99AF001E5E31 /* ActiveChatCell.swift in Sources */,
