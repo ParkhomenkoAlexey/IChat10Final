@@ -17,6 +17,7 @@
 		F0C20F9823DF8563001E5E31 /* activeChats.json in Resources */ = {isa = PBXBuildFile; fileRef = F0C20F9723DF8563001E5E31 /* activeChats.json */; };
 		F0C20F9A23DF8569001E5E31 /* waitingChats.json in Resources */ = {isa = PBXBuildFile; fileRef = F0C20F9923DF8569001E5E31 /* waitingChats.json */; };
 		F0C20F9C23DF87F0001E5E31 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F9B23DF87F0001E5E31 /* Bundle-Decodable.swift */; };
+		F0C20F9F23DF99AF001E5E31 /* ActiveChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F9E23DF99AF001E5E31 /* ActiveChatCell.swift */; };
 		F0D5B34023DDA90C006497D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B33F23DDA90C006497D0 /* AppDelegate.swift */; };
 		F0D5B34223DDA90C006497D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B34123DDA90C006497D0 /* SceneDelegate.swift */; };
 		F0D5B34423DDA90C006497D0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B34323DDA90C006497D0 /* AuthViewController.swift */; };
@@ -44,6 +45,7 @@
 		F0C20F9723DF8563001E5E31 /* activeChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = activeChats.json; sourceTree = "<group>"; };
 		F0C20F9923DF8569001E5E31 /* waitingChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waitingChats.json; sourceTree = "<group>"; };
 		F0C20F9B23DF87F0001E5E31 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		F0C20F9E23DF99AF001E5E31 /* ActiveChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChatCell.swift; sourceTree = "<group>"; };
 		F0D5B33C23DDA90C006497D0 /* IChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D5B33F23DDA90C006497D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0D5B34123DDA90C006497D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,11 +89,20 @@
 		F0C20F9223DF55ED001E5E31 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F0C20F9D23DF999F001E5E31 /* Cell */,
 				F0C20F9323DF5609001E5E31 /* MainTabBarController.swift */,
 				F0C20F8F23DF54B5001E5E31 /* ListViewController.swift */,
 				F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F0C20F9D23DF999F001E5E31 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F0C20F9E23DF99AF001E5E31 /* ActiveChatCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		F0D5B33323DDA90C006497D0 = {
@@ -229,6 +240,7 @@
 				F0D5B36623DDD9E0006497D0 /* OneLineTextField.swift in Sources */,
 				F0C20F9423DF5609001E5E31 /* MainTabBarController.swift in Sources */,
 				F0D5B36423DDD84D006497D0 /* SignUpViewController.swift in Sources */,
+				F0C20F9F23DF99AF001E5E31 /* ActiveChatCell.swift in Sources */,
 				F0D5B35823DDB22E006497D0 /* UIColor + Extension.swift in Sources */,
 				F0C20F9623DF5642001E5E31 /* PeopleViewController.swift in Sources */,
 				F0D5B35623DDB1AA006497D0 /* UIFont + Extension.swift in Sources */,
