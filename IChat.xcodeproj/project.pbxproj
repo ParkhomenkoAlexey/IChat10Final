@@ -39,6 +39,8 @@
 		F0D5B36223DDD46A006497D0 /* StackView + Entension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B36123DDD46A006497D0 /* StackView + Entension.swift */; };
 		F0D5B36423DDD84D006497D0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B36323DDD84D006497D0 /* SignUpViewController.swift */; };
 		F0D5B36623DDD9E0006497D0 /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B36523DDD9E0006497D0 /* OneLineTextField.swift */; };
+		F0DF34DC23E0D3BD004B864F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34DB23E0D3BD004B864F /* UserCell.swift */; };
+		F0DF34DE23E0D7C2004B864F /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34DD23E0D7C2004B864F /* UIViewController + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		F0D5B36123DDD46A006497D0 /* StackView + Entension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Entension.swift"; sourceTree = "<group>"; };
 		F0D5B36323DDD84D006497D0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		F0D5B36523DDD9E0006497D0 /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
+		F0DF34DB23E0D3BD004B864F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F0DF34DD23E0D7C2004B864F /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 			children = (
 				F0C20F9E23DF99AF001E5E31 /* ActiveChatCell.swift */,
 				F0C20FA423DFA5CA001E5E31 /* WaitingChatCell.swift */,
+				F0DF34DB23E0D3BD004B864F /* UserCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				F0D5B35323DDAEF1006497D0 /* UIButton + Extension.swift */,
+				F0DF34DD23E0D7C2004B864F /* UIViewController + Extension.swift */,
 				F0D5B35923DDB35E006497D0 /* Label + Extension.swift */,
 				F0D5B35523DDB1AA006497D0 /* UIFont + Extension.swift */,
 				F0D5B35723DDB22E006497D0 /* UIColor + Extension.swift */,
@@ -310,6 +316,8 @@
 				F0D5B34423DDA90C006497D0 /* AuthViewController.swift in Sources */,
 				F0D5B35C23DDB3E9006497D0 /* UIImageView + Extension.swift in Sources */,
 				F0297F8223DE2A24007914C9 /* SegmentedControl + Extension.swift in Sources */,
+				F0DF34DC23E0D3BD004B864F /* UserCell.swift in Sources */,
+				F0DF34DE23E0D7C2004B864F /* UIViewController + Extension.swift in Sources */,
 				F0C20FA723DFA666001E5E31 /* SelfConfiguringCell.swift in Sources */,
 				F0C20FA523DFA5CA001E5E31 /* WaitingChatCell.swift in Sources */,
 				F0D5B34023DDA90C006497D0 /* AppDelegate.swift in Sources */,
