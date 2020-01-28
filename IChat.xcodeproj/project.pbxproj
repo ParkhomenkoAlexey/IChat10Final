@@ -11,6 +11,7 @@
 		F0297F7C23DE1DD7007914C9 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0297F7B23DE1DD7007914C9 /* SetupProfileViewController.swift */; };
 		F0297F8023DE27F4007914C9 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0297F7F23DE27F4007914C9 /* AddPhotoView.swift */; };
 		F0297F8223DE2A24007914C9 /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0297F8123DE2A24007914C9 /* SegmentedControl + Extension.swift */; };
+		F05C0B6723E07A240016EE19 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C0B6623E07A240016EE19 /* SectionHeader.swift */; };
 		F0C20F9023DF54B5001E5E31 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F8F23DF54B5001E5E31 /* ListViewController.swift */; };
 		F0C20F9423DF5609001E5E31 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F9323DF5609001E5E31 /* MainTabBarController.swift */; };
 		F0C20F9623DF5642001E5E31 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */; };
@@ -42,6 +43,7 @@
 		F0297F7B23DE1DD7007914C9 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
 		F0297F7F23DE27F4007914C9 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
 		F0297F8123DE2A24007914C9 /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
+		F05C0B6623E07A240016EE19 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		F0C20F8F23DF54B5001E5E31 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		F0C20F9323DF5609001E5E31 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				F0C20F9323DF5609001E5E31 /* MainTabBarController.swift */,
 				F0C20F8F23DF54B5001E5E31 /* ListViewController.swift */,
+				F05C0B6623E07A240016EE19 /* SectionHeader.swift */,
 				F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */,
 				F0C20F9D23DF999F001E5E31 /* Cell */,
 			);
@@ -145,6 +148,8 @@
 				F0C20F9123DF55DB001E5E31 /* SignIn&Auth */,
 				F0C20FA823DFA678001E5E31 /* Protocols */,
 				F0D5B35E23DDCF5D006497D0 /* Extensions */,
+				F0C20F9723DF8563001E5E31 /* activeChats.json */,
+				F0C20F9923DF8569001E5E31 /* waitingChats.json */,
 				F0D5B34823DDA90E006497D0 /* Assets.xcassets */,
 				F0D5B34A23DDA90E006497D0 /* LaunchScreen.storyboard */,
 				F0D5B34D23DDA90E006497D0 /* Info.plist */,
@@ -162,8 +167,6 @@
 				F0D5B35B23DDB3E9006497D0 /* UIImageView + Extension.swift */,
 				F0D5B36123DDD46A006497D0 /* StackView + Entension.swift */,
 				F0297F8123DE2A24007914C9 /* SegmentedControl + Extension.swift */,
-				F0C20F9723DF8563001E5E31 /* activeChats.json */,
-				F0C20F9923DF8569001E5E31 /* waitingChats.json */,
 			);
 			path = UIKIt;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				F0C20F9023DF54B5001E5E31 /* ListViewController.swift in Sources */,
 				F0D5B36623DDD9E0006497D0 /* OneLineTextField.swift in Sources */,
+				F05C0B6723E07A240016EE19 /* SectionHeader.swift in Sources */,
 				F0C20FA123DFA178001E5E31 /* GradientView.swift in Sources */,
 				F0C20F9423DF5609001E5E31 /* MainTabBarController.swift in Sources */,
 				F0D5B36423DDD84D006497D0 /* SignUpViewController.swift in Sources */,
