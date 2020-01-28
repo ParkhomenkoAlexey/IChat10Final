@@ -41,6 +41,7 @@
 		F0D5B36623DDD9E0006497D0 /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5B36523DDD9E0006497D0 /* OneLineTextField.swift */; };
 		F0DF34DC23E0D3BD004B864F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34DB23E0D3BD004B864F /* UserCell.swift */; };
 		F0DF34DE23E0D7C2004B864F /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34DD23E0D7C2004B864F /* UIViewController + Extension.swift */; };
+		F0DF34E423E0F05B004B864F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34E323E0F05B004B864F /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		F0D5B36523DDD9E0006497D0 /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 		F0DF34DB23E0D3BD004B864F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		F0DF34DD23E0D7C2004B864F /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		F0DF34E323E0F05B004B864F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				F0C20F9323DF5609001E5E31 /* MainTabBarController.swift */,
 				F0C20F8F23DF54B5001E5E31 /* ListViewController.swift */,
 				F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */,
+				F0DF34E323E0F05B004B864F /* ProfileViewController.swift */,
 				F0C20F9D23DF999F001E5E31 /* Cell */,
 				F05C0B6A23E086730016EE19 /* Header */,
 			);
@@ -308,6 +311,7 @@
 				F0D5B35823DDB22E006497D0 /* UIColor + Extension.swift in Sources */,
 				F0C20F9623DF5642001E5E31 /* PeopleViewController.swift in Sources */,
 				F0D5B35623DDB1AA006497D0 /* UIFont + Extension.swift in Sources */,
+				F0DF34E423E0F05B004B864F /* ProfileViewController.swift in Sources */,
 				F0C20F9C23DF87F0001E5E31 /* Bundle-Decodable.swift in Sources */,
 				F0297F7C23DE1DD7007914C9 /* SetupProfileViewController.swift in Sources */,
 				F0D5B35A23DDB35E006497D0 /* Label + Extension.swift in Sources */,
