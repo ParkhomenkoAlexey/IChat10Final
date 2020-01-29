@@ -44,6 +44,7 @@
 		F0DF34E423E0F05B004B864F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34E323E0F05B004B864F /* ProfileViewController.swift */; };
 		F0DF34EA23E10183004B864F /* InsertableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34E923E10183004B864F /* InsertableTextField.swift */; };
 		F0DF34EC23E101A2004B864F /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34EB23E101A2004B864F /* UIView + Extension.swift */; };
+		F0DF34EE23E1035F004B864F /* ChatRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34ED23E1035F004B864F /* ChatRequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		F0DF34E323E0F05B004B864F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F0DF34E923E10183004B864F /* InsertableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertableTextField.swift; sourceTree = "<group>"; };
 		F0DF34EB23E101A2004B864F /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		F0DF34ED23E1035F004B864F /* ChatRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				F0C20F8F23DF54B5001E5E31 /* ListViewController.swift */,
 				F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */,
 				F0DF34E323E0F05B004B864F /* ProfileViewController.swift */,
+				F0DF34ED23E1035F004B864F /* ChatRequestViewController.swift */,
 				F0C20F9D23DF999F001E5E31 /* Cell */,
 				F05C0B6A23E086730016EE19 /* Header */,
 			);
@@ -320,6 +323,7 @@
 				F0D5B35623DDB1AA006497D0 /* UIFont + Extension.swift in Sources */,
 				F0DF34E423E0F05B004B864F /* ProfileViewController.swift in Sources */,
 				F0C20F9C23DF87F0001E5E31 /* Bundle-Decodable.swift in Sources */,
+				F0DF34EE23E1035F004B864F /* ChatRequestViewController.swift in Sources */,
 				F0297F7C23DE1DD7007914C9 /* SetupProfileViewController.swift in Sources */,
 				F0D5B35A23DDB35E006497D0 /* Label + Extension.swift in Sources */,
 				F0D5B36023DDD0FA006497D0 /* ButtonFormView.swift in Sources */,
