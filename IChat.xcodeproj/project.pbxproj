@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,7 @@
 		F05C0B6923E084F10016EE19 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = F05C0B6823E084F10016EE19 /* users.json */; };
 		F05C0B7323E088750016EE19 /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C0B7223E088750016EE19 /* MUser.swift */; };
 		F05C0B7523E088820016EE19 /* MChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C0B7423E088820016EE19 /* MChat.swift */; };
-		F06F8A7F23E34A9500A6885F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06F8A7E23E34A9500A6885F /* GoogleService-Info.plist */; };
+		F06F8A8123E35C0800A6885F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06F8A8023E35C0700A6885F /* GoogleService-Info.plist */; };
 		F0C20F9023DF54B5001E5E31 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F8F23DF54B5001E5E31 /* ListViewController.swift */; };
 		F0C20F9423DF5609001E5E31 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F9323DF5609001E5E31 /* MainTabBarController.swift */; };
 		F0C20F9623DF5642001E5E31 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */; };
@@ -60,7 +60,7 @@
 		F05C0B6823E084F10016EE19 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		F05C0B7223E088750016EE19 /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
 		F05C0B7423E088820016EE19 /* MChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MChat.swift; sourceTree = "<group>"; };
-		F06F8A7E23E34A9500A6885F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F06F8A8023E35C0700A6885F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F0C20F8F23DF54B5001E5E31 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		F0C20F9323DF5609001E5E31 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
@@ -122,7 +122,6 @@
 				FD39B4B37D163D429704491F /* Pods-IChat.debug.xcconfig */,
 				B2FE02C37959A2B782040628 /* Pods-IChat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,7 +227,7 @@
 				F0D5B34823DDA90E006497D0 /* Assets.xcassets */,
 				F0D5B34A23DDA90E006497D0 /* LaunchScreen.storyboard */,
 				F0D5B34D23DDA90E006497D0 /* Info.plist */,
-				F06F8A7E23E34A9500A6885F /* GoogleService-Info.plist */,
+				F06F8A8023E35C0700A6885F /* GoogleService-Info.plist */,
 			);
 			path = IChat;
 			sourceTree = "<group>";
@@ -328,7 +327,7 @@
 				F0D5B34C23DDA90E006497D0 /* LaunchScreen.storyboard in Resources */,
 				F0D5B34923DDA90E006497D0 /* Assets.xcassets in Resources */,
 				F0C20F9823DF8563001E5E31 /* activeChats.json in Resources */,
-				F06F8A7F23E34A9500A6885F /* GoogleService-Info.plist in Resources */,
+				F06F8A8123E35C0800A6885F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

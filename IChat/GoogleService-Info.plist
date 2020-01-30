@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>480120326185-5aemt3k5961hmr6mcbngueahanc3avvl.apps.googleusercontent.com</string>
+	<string>51459188559-5gaov7c4b67oa8d0e267dkrhmvnmbhve.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.480120326185-5aemt3k5961hmr6mcbngueahanc3avvl</string>
+	<string>com.googleusercontent.apps.51459188559-5gaov7c4b67oa8d0e267dkrhmvnmbhve</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDeaoZ7pgMj0SxPzkbu2mhEYcSc-13sKWQ</string>
+	<string>AIzaSyCXI6C9g21lZh88uaKvuehD-ZYe0dIuQlI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>480120326185</string>
+	<string>51459188559</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.alexeyParkhomenko.IChat</string>
 	<key>PROJECT_ID</key>
-	<string>ichat-f03d8</string>
+	<string>ichat-baf74</string>
 	<key>STORAGE_BUCKET</key>
-	<string>ichat-f03d8.appspot.com</string>
+	<string>ichat-baf74.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:480120326185:ios:e08156971c584748c93438</string>
+	<string>1:51459188559:ios:854f7c7f093715ee80473a</string>
 	<key>DATABASE_URL</key>
-	<string>https://ichat-f03d8.firebaseio.com</string>
+	<string>https://ichat-baf74.firebaseio.com</string>
 </dict>
 </plist>
