@@ -18,6 +18,8 @@
 		F05C0B7523E088820016EE19 /* MChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C0B7423E088820016EE19 /* MChat.swift */; };
 		F06F8A8123E35C0800A6885F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06F8A8023E35C0700A6885F /* GoogleService-Info.plist */; };
 		F06F8A8423E362B700A6885F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06F8A8323E362B700A6885F /* AuthService.swift */; };
+		F06F8A8623E37F9800A6885F /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06F8A8523E37F9800A6885F /* Validators.swift */; };
+		F06F8A8823E380A300A6885F /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06F8A8723E380A300A6885F /* AuthError.swift */; };
 		F0C20F9023DF54B5001E5E31 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F8F23DF54B5001E5E31 /* ListViewController.swift */; };
 		F0C20F9423DF5609001E5E31 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F9323DF5609001E5E31 /* MainTabBarController.swift */; };
 		F0C20F9623DF5642001E5E31 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */; };
@@ -63,6 +65,8 @@
 		F05C0B7423E088820016EE19 /* MChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MChat.swift; sourceTree = "<group>"; };
 		F06F8A8023E35C0700A6885F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F06F8A8323E362B700A6885F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F06F8A8523E37F9800A6885F /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		F06F8A8723E380A300A6885F /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
 		F0C20F8F23DF54B5001E5E31 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		F0C20F9323DF5609001E5E31 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +157,15 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		F06F8A8923E382D100A6885F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F06F8A8523E37F9800A6885F /* Validators.swift */,
+				F06F8A8723E380A300A6885F /* AuthError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F0C20F9123DF55DB001E5E31 /* SignIn&Auth */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +237,7 @@
 				F0C20F9123DF55DB001E5E31 /* SignIn&Auth */,
 				F0C20FA823DFA678001E5E31 /* Protocols */,
 				F0D5B35E23DDCF5D006497D0 /* Extensions */,
+				F06F8A8923E382D100A6885F /* Helpers */,
 				F0C20F9723DF8563001E5E31 /* activeChats.json */,
 				F0C20F9923DF8569001E5E31 /* waitingChats.json */,
 				F05C0B6823E084F10016EE19 /* users.json */,
@@ -389,8 +403,10 @@
 				F05C0B6723E07A240016EE19 /* SectionHeader.swift in Sources */,
 				F0C20FA123DFA178001E5E31 /* GradientView.swift in Sources */,
 				F0C20F9423DF5609001E5E31 /* MainTabBarController.swift in Sources */,
+				F06F8A8823E380A300A6885F /* AuthError.swift in Sources */,
 				F0D5B36423DDD84D006497D0 /* SignUpViewController.swift in Sources */,
 				F05C0B7323E088750016EE19 /* MUser.swift in Sources */,
+				F06F8A8623E37F9800A6885F /* Validators.swift in Sources */,
 				F0C20F9F23DF99AF001E5E31 /* ActiveChatCell.swift in Sources */,
 				F0D5B35823DDB22E006497D0 /* UIColor + Extension.swift in Sources */,
 				F0DF34EA23E10183004B864F /* InsertableTextField.swift in Sources */,
