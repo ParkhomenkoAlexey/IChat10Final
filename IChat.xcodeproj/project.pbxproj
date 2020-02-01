@@ -51,6 +51,8 @@
 		F0DF34EA23E10183004B864F /* InsertableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34E923E10183004B864F /* InsertableTextField.swift */; };
 		F0DF34EC23E101A2004B864F /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34EB23E101A2004B864F /* UIView + Extension.swift */; };
 		F0DF34EE23E1035F004B864F /* ChatRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF34ED23E1035F004B864F /* ChatRequestViewController.swift */; };
+		F0EA4BA323E60E3800C71615 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EA4BA223E60E3800C71615 /* FirestoreService.swift */; };
+		F0EA4BA523E60E5F00C71615 /* UserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EA4BA423E60E5F00C71615 /* UserError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +103,8 @@
 		F0DF34E923E10183004B864F /* InsertableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertableTextField.swift; sourceTree = "<group>"; };
 		F0DF34EB23E101A2004B864F /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		F0DF34ED23E1035F004B864F /* ChatRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequestViewController.swift; sourceTree = "<group>"; };
+		F0EA4BA223E60E3800C71615 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		F0EA4BA423E60E5F00C71615 /* UserError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserError.swift; sourceTree = "<group>"; };
 		FD39B4B37D163D429704491F /* Pods-IChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IChat.debug.xcconfig"; path = "Target Support Files/Pods-IChat/Pods-IChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +159,7 @@
 			children = (
 				F05C0B7623E088BF0016EE19 /* Model */,
 				F06F8A8323E362B700A6885F /* AuthService.swift */,
+				F0EA4BA223E60E3800C71615 /* FirestoreService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			children = (
 				F06F8A8523E37F9800A6885F /* Validators.swift */,
 				F06F8A8723E380A300A6885F /* AuthError.swift */,
+				F0EA4BA423E60E5F00C71615 /* UserError.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -415,6 +421,7 @@
 				F0DF34EA23E10183004B864F /* InsertableTextField.swift in Sources */,
 				F0C20F9623DF5642001E5E31 /* PeopleViewController.swift in Sources */,
 				F0D5B35623DDB1AA006497D0 /* UIFont + Extension.swift in Sources */,
+				F0EA4BA323E60E3800C71615 /* FirestoreService.swift in Sources */,
 				F0DF34E423E0F05B004B864F /* ProfileViewController.swift in Sources */,
 				F0C20F9C23DF87F0001E5E31 /* Bundle-Decodable.swift in Sources */,
 				F0DF34EE23E1035F004B864F /* ChatRequestViewController.swift in Sources */,
@@ -422,6 +429,7 @@
 				F0D5B35A23DDB35E006497D0 /* Label + Extension.swift in Sources */,
 				F0D5B36023DDD0FA006497D0 /* ButtonFormView.swift in Sources */,
 				F0297F8023DE27F4007914C9 /* AddPhotoView.swift in Sources */,
+				F0EA4BA523E60E5F00C71615 /* UserError.swift in Sources */,
 				F0D5B34423DDA90C006497D0 /* AuthViewController.swift in Sources */,
 				F0DF34EC23E101A2004B864F /* UIView + Extension.swift in Sources */,
 				F0D5B35C23DDB3E9006497D0 /* UIImageView + Extension.swift in Sources */,
