@@ -13,6 +13,8 @@
 		F0297F8023DE27F4007914C9 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0297F7F23DE27F4007914C9 /* AddPhotoView.swift */; };
 		F0297F8223DE2A24007914C9 /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0297F8123DE2A24007914C9 /* SegmentedControl + Extension.swift */; };
 		F047F5A223E6F238003F97F9 /* UIAplication + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F047F5A123E6F238003F97F9 /* UIAplication + Extension.swift */; };
+		F047F5A423E71AB0003F97F9 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F047F5A323E71AB0003F97F9 /* StorageService.swift */; };
+		F047F5A623E71D29003F97F9 /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F047F5A523E71D29003F97F9 /* UIImage + Extension.swift */; };
 		F05C0B6723E07A240016EE19 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C0B6623E07A240016EE19 /* SectionHeader.swift */; };
 		F05C0B6923E084F10016EE19 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = F05C0B6823E084F10016EE19 /* users.json */; };
 		F05C0B7323E088750016EE19 /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C0B7223E088750016EE19 /* MUser.swift */; };
@@ -64,6 +66,8 @@
 		F0297F7F23DE27F4007914C9 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
 		F0297F8123DE2A24007914C9 /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
 		F047F5A123E6F238003F97F9 /* UIAplication + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAplication + Extension.swift"; sourceTree = "<group>"; };
+		F047F5A323E71AB0003F97F9 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		F047F5A523E71D29003F97F9 /* UIImage + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
 		F05C0B6623E07A240016EE19 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		F05C0B6823E084F10016EE19 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		F05C0B7223E088750016EE19 /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
@@ -162,6 +166,7 @@
 				F05C0B7623E088BF0016EE19 /* Model */,
 				F06F8A8323E362B700A6885F /* AuthService.swift */,
 				F0EA4BA223E60E3800C71615 /* FirestoreService.swift */,
+				F047F5A323E71AB0003F97F9 /* StorageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				F0D5B35B23DDB3E9006497D0 /* UIImageView + Extension.swift */,
 				F0D5B36123DDD46A006497D0 /* StackView + Entension.swift */,
 				F0297F8123DE2A24007914C9 /* SegmentedControl + Extension.swift */,
+				F047F5A523E71D29003F97F9 /* UIImage + Extension.swift */,
 			);
 			path = UIKIt;
 			sourceTree = "<group>";
@@ -455,12 +461,14 @@
 				F0D5B34423DDA90C006497D0 /* AuthViewController.swift in Sources */,
 				F0DF34EC23E101A2004B864F /* UIView + Extension.swift in Sources */,
 				F0D5B35C23DDB3E9006497D0 /* UIImageView + Extension.swift in Sources */,
+				F047F5A423E71AB0003F97F9 /* StorageService.swift in Sources */,
 				F0297F8223DE2A24007914C9 /* SegmentedControl + Extension.swift in Sources */,
 				F0DF34DC23E0D3BD004B864F /* UserCell.swift in Sources */,
 				F06F8A8B23E3910800A6885F /* AuthNavigatingDelegate.swift in Sources */,
 				F0DF34DE23E0D7C2004B864F /* UIViewController + Extension.swift in Sources */,
 				F0C20FA723DFA666001E5E31 /* SelfConfiguringCell.swift in Sources */,
 				F0C20FA523DFA5CA001E5E31 /* WaitingChatCell.swift in Sources */,
+				F047F5A623E71D29003F97F9 /* UIImage + Extension.swift in Sources */,
 				F0D5B34023DDA90C006497D0 /* AppDelegate.swift in Sources */,
 				F0D5B36223DDD46A006497D0 /* StackView + Entension.swift in Sources */,
 				F0D5B34223DDA90C006497D0 /* SceneDelegate.swift in Sources */,
