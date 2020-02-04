@@ -18,6 +18,7 @@
 		F047F5A823E76F99003F97F9 /* ListenerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F047F5A723E76F99003F97F9 /* ListenerService.swift */; };
 		F047F5AA23E79C98003F97F9 /* MMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F047F5A923E79C98003F97F9 /* MMessage.swift */; };
 		F047F5AC23E8F16E003F97F9 /* WaitingChatsNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F047F5AB23E8F16E003F97F9 /* WaitingChatsNavigation.swift */; };
+		F047F5AE23E90B6C003F97F9 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F047F5AD23E90B6C003F97F9 /* ChatsViewController.swift */; };
 		F05C0B6723E07A240016EE19 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C0B6623E07A240016EE19 /* SectionHeader.swift */; };
 		F05C0B6923E084F10016EE19 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = F05C0B6823E084F10016EE19 /* users.json */; };
 		F05C0B7323E088750016EE19 /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C0B7223E088750016EE19 /* MUser.swift */; };
@@ -75,6 +76,7 @@
 		F047F5A723E76F99003F97F9 /* ListenerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerService.swift; sourceTree = "<group>"; };
 		F047F5A923E79C98003F97F9 /* MMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMessage.swift; sourceTree = "<group>"; };
 		F047F5AB23E8F16E003F97F9 /* WaitingChatsNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingChatsNavigation.swift; sourceTree = "<group>"; };
+		F047F5AD23E90B6C003F97F9 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
 		F05C0B6623E07A240016EE19 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		F05C0B6823E084F10016EE19 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		F05C0B7223E088750016EE19 /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				F0C20F9523DF5642001E5E31 /* PeopleViewController.swift */,
 				F0DF34E323E0F05B004B864F /* ProfileViewController.swift */,
 				F0DF34ED23E1035F004B864F /* ChatRequestViewController.swift */,
+				F047F5AD23E90B6C003F97F9 /* ChatsViewController.swift */,
 				F0C20F9D23DF999F001E5E31 /* Cell */,
 				F05C0B6A23E086730016EE19 /* Header */,
 			);
@@ -470,6 +473,7 @@
 				F0EA4BA523E60E5F00C71615 /* UserError.swift in Sources */,
 				F0D5B34423DDA90C006497D0 /* AuthViewController.swift in Sources */,
 				F0DF34EC23E101A2004B864F /* UIView + Extension.swift in Sources */,
+				F047F5AE23E90B6C003F97F9 /* ChatsViewController.swift in Sources */,
 				F0D5B35C23DDB3E9006497D0 /* UIImageView + Extension.swift in Sources */,
 				F047F5A423E71AB0003F97F9 /* StorageService.swift in Sources */,
 				F0297F8223DE2A24007914C9 /* SegmentedControl + Extension.swift in Sources */,

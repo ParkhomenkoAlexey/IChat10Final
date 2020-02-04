@@ -236,10 +236,13 @@ extension ListViewController: UICollectionViewDelegate {
             self.present(chatRequestVC, animated: true, completion: nil)
         case .activeChats:
             print(indexPath)
+            let chatsVC = ChatsViewController(user: currentUser, chat: chat)
+            navigationController?.pushViewController(chatsVC, animated: true)
         }
     }
 }
 
+// MARK: - WaitingChatsNavigation
 extension ListViewController: WaitingChatsNavigation {
     func removeWaitingChat(chat: MChat) {
         FirestoreService.shared.deleteWaitingChat(chat: chat) { (result) in
