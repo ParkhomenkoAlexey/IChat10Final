@@ -43,6 +43,8 @@ class ChatsViewController: MessagesViewController {
         if let layout = messagesCollectionView.collectionViewLayout as? MessagesCollectionViewFlowLayout {
             layout.textMessageSizeCalculator.outgoingAvatarSize = .zero
             layout.textMessageSizeCalculator.incomingAvatarSize = .zero
+            layout.photoMessageSizeCalculator.incomingAvatarSize = .zero
+            layout.photoMessageSizeCalculator.outgoingAvatarSize = .zero
         }
         
         messagesCollectionView.backgroundColor = .mainWhite()
@@ -53,9 +55,23 @@ class ChatsViewController: MessagesViewController {
         
         messageListener = ListenerService.shared.messagesObserve(chat: chat, completion: { (result) in
             switch result {
+            case .success(var message):
+                if let url = message.downloadURL {
+                    StorageService.shared.downloadImage(url: url) { [weak self] (result) in
+                        guard let self = self else { return }
+                        switch result {
+                            
+                        case .success(let image):
+                            message.image = image
+                            self.insertNewMessage(message: message)
+                        case .failure(let error):
+                            self.showAlert(with: "Ошибка!", and: error.localizedDescription)
+                        }
+                    }
+                } else {
+                    self.insertNewMessage(message: message)
+                }
                 
-            case .success(let message):
-                self.insertNewMessage(message: message)
             case .failure(let error):
                 self.showAlert(with: "Ошибка!", and: error.localizedDescription)
             }
@@ -75,6 +91,41 @@ class ChatsViewController: MessagesViewController {
         if shouldScrollToBottom {
             DispatchQueue.main.async {
                 self.messagesCollectionView.scrollToBottom(animated: true)
+            }
+        }
+    }
+    
+    @objc private func cameraButtonPressed() {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            picker.sourceType = .camera
+        } else {
+            picker.sourceType = .photoLibrary
+        }
+        
+        present(picker, animated: true, completion: nil)
+    }
+    
+    private func sendImage(image: UIImage) {
+        StorageService.shared.uploadImageMessage(photo: image, to: chat) { (result) in
+            switch result {
+                
+            case .success(let url):
+                var message = MMessage(user: self.user, image: image)
+                message.downloadURL = url
+                FirestoreService.shared.sendMessage(chat: self.chat, message: message) { (result) in
+                    switch result {
+                        
+                    case .success:
+                        self.messagesCollectionView.scrollToBottom()
+                    case .failure(_):
+                        self.showAlert(with: "Ошибка!", and: "Изображение не доставлено")
+                    }
+                }
+            case .failure(let error):
+                self.showAlert(with: "Ошибка!", and: error.localizedDescription)
             }
         }
     }
@@ -103,6 +154,7 @@ extension ChatsViewController {
         messageInputBar.layer.shadowOffset = CGSize(width: 0, height: 4)
         
         configureSendButton()
+        configureCameraIcon()
     }
     
     func configureSendButton() {
@@ -112,6 +164,25 @@ extension ChatsViewController {
         messageInputBar.sendButton.contentEdgeInsets = UIEdgeInsets(top: 2, left: 2, bottom: 6, right: 30)
         messageInputBar.sendButton.setSize(CGSize(width: 48, height: 48), animated: false)
         messageInputBar.middleContentViewPadding.right = -38
+    }
+    
+    func configureCameraIcon() {
+        let cameraItem = InputBarButtonItem(type: .system)
+        cameraItem.tintColor = #colorLiteral(red: 0.7882352941, green: 0.631372549, blue: 0.9411764706, alpha: 1)
+        let cameraImage = UIImage(systemName: "camera")!
+        cameraItem.image = cameraImage
+        
+        cameraItem.addTarget(
+          self,
+          action: #selector(cameraButtonPressed),
+          for: .primaryActionTriggered
+        )
+        cameraItem.setSize(CGSize(width: 60, height: 30), animated: false)
+
+        messageInputBar.leftStackView.alignment = .center
+        messageInputBar.setLeftStackViewWidthConstant(to: 50, animated: false)
+
+        messageInputBar.setStackViewItems([cameraItem], forStack: .left, animated: false)
     }
 }
 
@@ -200,21 +271,11 @@ extension ChatsViewController: MessageInputBarDelegate {
     }
 }
 
-
-extension UIScrollView {
-    
-    var isAtBottom: Bool {
-        return contentOffset.y >= verticalOffsetForBottom
-    }
-    
-    var verticalOffsetForBottom: CGFloat {
-      let scrollViewHeight = bounds.height
-      let scrollContentSizeHeight = contentSize.height
-      let bottomInset = contentInset.bottom
-      let scrollViewBottomOffset = scrollContentSizeHeight + bottomInset - scrollViewHeight
-      return scrollViewBottomOffset
+// MARK: - UIImagePickerControllerDelegate
+extension ChatsViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        picker.dismiss(animated: true, completion: nil)
+        guard let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage else { return }
+        sendImage(image: image)
     }
 }
-
-
-

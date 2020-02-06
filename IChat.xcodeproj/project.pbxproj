@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		801034D49E92BAB2525E3950 /* Pods_IChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B8CD3255E3259DE046347E /* Pods_IChat.framework */; };
+		F0008F4223EC8EDC0039CE34 /* UIScrollView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0008F4123EC8EDC0039CE34 /* UIScrollView + Extension.swift */; };
 		F0297F7A23DE11E7007914C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0297F7923DE11E7007914C9 /* LoginViewController.swift */; };
 		F0297F7C23DE1DD7007914C9 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0297F7B23DE1DD7007914C9 /* SetupProfileViewController.swift */; };
 		F0297F8023DE27F4007914C9 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0297F7F23DE27F4007914C9 /* AddPhotoView.swift */; };
@@ -66,6 +67,7 @@
 		29B8CD3255E3259DE046347E /* Pods_IChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C637D8417734DE3AEE2FD40 /* Pods-IChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IChat.release.xcconfig"; path = "Target Support Files/Pods-IChat/Pods-IChat.release.xcconfig"; sourceTree = "<group>"; };
 		67057C81AAA680ED8B78F738 /* Pods-IChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IChat.debug.xcconfig"; path = "Target Support Files/Pods-IChat/Pods-IChat.debug.xcconfig"; sourceTree = "<group>"; };
+		F0008F4123EC8EDC0039CE34 /* UIScrollView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView + Extension.swift"; sourceTree = "<group>"; };
 		F0297F7923DE11E7007914C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F0297F7B23DE1DD7007914C9 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
 		F0297F7F23DE27F4007914C9 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 				F0D5B35723DDB22E006497D0 /* UIColor + Extension.swift */,
 				F0D5B35B23DDB3E9006497D0 /* UIImageView + Extension.swift */,
 				F0D5B36123DDD46A006497D0 /* StackView + Entension.swift */,
+				F0008F4123EC8EDC0039CE34 /* UIScrollView + Extension.swift */,
 				F0297F8123DE2A24007914C9 /* SegmentedControl + Extension.swift */,
 				F047F5A523E71D29003F97F9 /* UIImage + Extension.swift */,
 			);
@@ -466,6 +469,7 @@
 				F0C20F9C23DF87F0001E5E31 /* Bundle-Decodable.swift in Sources */,
 				F0DF34EE23E1035F004B864F /* ChatRequestViewController.swift in Sources */,
 				F0297F7C23DE1DD7007914C9 /* SetupProfileViewController.swift in Sources */,
+				F0008F4223EC8EDC0039CE34 /* UIScrollView + Extension.swift in Sources */,
 				F047F5A823E76F99003F97F9 /* ListenerService.swift in Sources */,
 				F0D5B35A23DDB35E006497D0 /* Label + Extension.swift in Sources */,
 				F0D5B36023DDD0FA006497D0 /* ButtonFormView.swift in Sources */,
